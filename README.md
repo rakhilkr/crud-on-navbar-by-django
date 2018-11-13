@@ -1,5 +1,5 @@
 sayone test app
 
 
-admin username = sayone
+admin username = sayone &&
 password = sayone
