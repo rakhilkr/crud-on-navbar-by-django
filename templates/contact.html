@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2><p>ust a test for SAYONE</p></h2>
+
+<form method="post">
+
+{%csrf_token%}
+  <center><fieldset>
+    <legend>Contact information:</legend>
+    Name:<br>
+    <input type="text" name="name" >
+    <br><br>
+    Email:<br>
+    <input type="text" name="email" >
+    <br>
+      <br>
+    Phone:<br>
+    <input type="text" name="phone" >
+    <br>
+      <br>
+    Message:<br>
+    <input type="text" name="message" >
+    <br><br>
+    <input type="submit" value="Submit">
+  </fieldset></center>
+</form>
+</body>
+</html>
